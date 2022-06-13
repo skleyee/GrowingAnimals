@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
                 'kind' => 'cat',
                 'max_size' => 30,
                 'max_age' => 20,
-                'growth_factor' => 1.5,
+                'growth_factor' => 1.4,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
                 'kind' => 'dog',
                 'max_size' => 40,
                 'max_age' => 20,
-                'growth_factor' => 1.3,
+                'growth_factor' => 1.8,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
                 'kind' => 'pigeon',
                 'max_size' => 15,
                 'max_age' => 6,
-                'growth_factor' => 3,
+                'growth_factor' => 2.2,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ],
@@ -45,7 +45,7 @@ class DatabaseSeeder extends Seeder
                 'kind' => 'hamster',
                 'max_size' => 8,
                 'max_age' => 3,
-                'growth_factor' => 5,
+                'growth_factor' => 2.3,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ]
